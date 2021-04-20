@@ -466,7 +466,7 @@ body {
 
 /* Backgrounds */
 .bg-1 {
-  background-image: url('https://cutewallpaper.org/21/turquoise-wallpapers-hd/Turquoise-Wallpapers-27+-.jpg');
+  background-image: url('https://deltarisk.com/wp-content/uploads/2018/04/Threat_Hunting_Blog_Image_V1.jpg');
 }
 
 /* Header */
@@ -477,6 +477,9 @@ body {
 #header #logo {
   text-align: center;
   display: none;
+}
+
+#header #logo h6{
   
 }
 
@@ -487,7 +490,7 @@ body {
 }
 
 #header #helloworld h1{
-  color: #301A4B;
+  
   
 }
 
@@ -619,6 +622,10 @@ body {
   margin-bottom: .2em;
   margin-top: 0.5em;
   color: #fff;
+}
+
+.info #desc{
+  font-weight: bold;
 }
 
 /* Contact */
