@@ -466,7 +466,7 @@ body {
 
 /* Backgrounds */
 .bg-1 {
-  background-image: url('../images/floor.jpg');
+  background-image: url('https://img.17qq.com/images/fjjjjfejhdz.jpeg');
 }
 
 /* Header */
@@ -477,11 +477,17 @@ body {
 #header #logo {
   text-align: center;
   display: none;
+  
 }
 
 #header #helloworld {
   text-align: center;
   display: none;
+  
+}
+
+#header #helloworld h1{
+  color: black;
 }
 
 #header h4 {
@@ -587,10 +593,15 @@ body {
   letter-spacing: 2px;
   margin-bottom: .2em;
   margin-top: 0.5em;
+  
+}
+
+.info h2{
+  color: black;
 }
 
 .info h4, #header h4 {
-  color: #59BD85;
+  color: #59bd5e;
   margin-bottom: 2em;
 }
 
@@ -646,9 +657,28 @@ body {
   margin-right: 12px;
 }
 
+
 .item-box .item-data {
   margin-top: 6px;
 }
+
+#imgNav{
+  width: 15px;
+  height: 15px;
+}
+
+#imgFace{
+  width: 20px;
+  height: 20px;
+  
+}
+
+#bloccoInfo{
+  
+  display: flex;
+  margin-top: 10px;
+}
+
 
 .item-box .item-data h3 {
   line-height: 1em;
@@ -656,8 +686,13 @@ body {
   font-size: 1em;
 }
 
+.item-box .item-data h3{
+  margin-left: 50px;
+}
+
 .item-box .item-data p {
-  margin: 0px;
+  
+  margin-left: 50px;
   font-size: 12px;
   color: #2E8B57;
   text-decoration-style: bold;
@@ -1296,3 +1331,5 @@ tbody {
   vertical-align: middle;
   display: grid;
 }
+
+

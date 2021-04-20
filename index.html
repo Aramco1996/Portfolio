@@ -33,8 +33,8 @@
 <!-- Start of Body Tag -->
 
 <body class="bg-fixed bg-1">
-  <div class="main-container">
-    <div class="main wrapper clearfix">
+  <div class="main-container" ;">
+    <div class="main wrapper clearfix" >
 
       <!-- Header Start -->
       <header id="header">
@@ -49,7 +49,7 @@
       <header id="header">
         <div id="helloworld">
           <h1>
-            Hello, World !
+            WELCOME
           </h1>
         </div>
       </header>
@@ -112,56 +112,40 @@
                 </div>
                 <div class="info">
                   <h2>
-                    <p></p>
-                    Matteo Fuccelli
+                    <p>Matteo Fuccelli</p>
                   </h2>
-                  <h4>
-                    Junior Developer
-                  </h4>
+                  <p style="margin-top: -60px;">
+                  <h4 >
+                      Junior Developer
+                    </h4>
+                  </p>
                   <p>
                     Ciao, sono Matteo!
                     <br>
-                    studio programmazione da un anno tra studio presso l'istituto Cefi e studio individuale!
+                    Ho svolto 7 mesi di corso presso l'Istituto Cefi
+                    <br>
+                    con conseguimento della qualifica di analista programmatore.
+                    <br>
+                    Successivamente ho continuato i miei studi con Udemy
                     
                   </p>
                   </p>
                 </div>
               </div>
 
-              <div class="g1">
-                <div class="main-links sidebar">
-                  <ul>
-                    <li>
-                      <a href="#resume">
-                        View My Skills
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#portfolio">
-                        View My Projects
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#contact">
-                        Hire me for your next project
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="break">
-              </div>
+              
               <div class="contact-info">
                 <div class="g1">
                   <div class="item-box clearfix">
                     <i class="icon-envelope"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="mailto:write@your_mail.here">
+                        <a href="mailto:matteo.fuccelli96@gmail.com">
                           Mail:
                         </a>
                       </h3>
-                      <p>
+                      <p id="bloccoInfo">
+                        <img id="imgFace" src="https://cdn.icon-icons.com/icons2/1524/PNG/512/mail_106454.png">
                         matteo.fuccelli96@gmail.com
                       </p>
                     </div>
@@ -172,11 +156,12 @@
                     <i class="icon-facebook"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="http://fb.me/your-Username">
+                        <a href="https://www.facebook.com/matteosc.fuccelli/">
                           Facebook:
                         </a>
                       </h3>
-                      <p>
+                      <p id="bloccoInfo">
+                        <img id="imgFace" src="https://img.icons8.com/ios-glyphs/452/facebook.png">
                         https://www.facebook.com/matteosc.fuccelli/
                       </p>
                     </div>
@@ -187,12 +172,13 @@
                     <i class="icon-twitter"></i>
                     <div class="item-data">
                       <h3>
-                        <a href="http://twitter.com/your-Username">
-                          Twitter:
+                        <a href="https://www.linkedin.com/in/matteo-fuccelli-78187a1b9/">
+                          Linkedin
                         </a>
                       </h3>
-                      <p>
-                        https://twitter.com/login?lang=it
+                      <p id="bloccoInfo">
+                        <img id="imgFace" src="data:image/png;base64,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">
+                        "https://www.linkedin.com/in/matteo-fuccelli-78187a1b9/"
                       </p>
                     </div>
                   </div>
@@ -224,21 +210,21 @@
                   </span>
                 </div>
                 <div class="meter emerald">
-                  <span style="width: 90%">
+                  <span style="width: 80%">
                     <span>
                       HTML5
                     </span>
                   </span>
                 </div>
                 <div class="meter emerald">
-                  <span style="width: 60%">
+                  <span style="width: 50%">
                     <span>
                       C++
                     </span>
                   </span>
                 </div>
                 <div class="meter emerald">
-                  <span style="width: 60%">
+                  <span style="width: 70%">
                     <span>
                       C
                     </span>
