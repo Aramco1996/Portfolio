@@ -485,6 +485,7 @@ body {
 
 #header #logo h6{
   color: rgb(11, 11, 126);
+  
 }
 
 #header #helloworld {
@@ -493,9 +494,13 @@ body {
   
 }
 
-#header #helloworld h2{
+#header #helloworld p{
   color: rgb(11, 11, 126);
   font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-bottom: -10px;
+  margin-top: -20px;
+  font-weight: bold;
 }
 
 #header h4 {
