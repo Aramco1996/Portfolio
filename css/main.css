@@ -1342,4 +1342,34 @@ tbody {
   display: grid;
 }
 
+#titolo-CV{
+  text-align: center;
+  
+}
 
+#titolo-CV h2{
+  font-family: 'Libre Baskerville', serif;
+}
+
+#div-lato{
+  height: 500px;
+  width: 250px;
+  background-color: lightgreen;
+  margin-left: 60px;
+}
+
+#div-grande{
+  width: 550px;
+  height: 500px;
+  background-color: lightblue;
+  margin-left: 50px;
+}
+
+.blocchi{
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.blocco-CV{
+  display: flex;
+}
