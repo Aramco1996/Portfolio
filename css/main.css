@@ -1365,20 +1365,20 @@ tbody {
 
 #titolo-CV h2{
     font-family: 'Open Sans', sans-serif;
-  
+    color: rgb(114, 114, 117);
 }
 
 #div-lato{
   height: 520px;
   width: 220px;
-  background-color: lightblue;
+  background-color: rgb(229, 226, 240);
   margin-left: 60px;
 }
 
 #div-grande{
   width: 580px;
   height: 520px;
-  background-color: lightblue;
+  background-color: rgb(229, 226, 240);
   margin-left: 30px;
   
 }
