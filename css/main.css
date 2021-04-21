@@ -1,9 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-body{
-  font-family: 'Open Sans', sans-serif;
-}
+
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -23,6 +21,8 @@ audio[controls], canvas, video {
   *display: inline;
   zoom: 1
 }
+
+
 
 /* BASE */
 html {
@@ -60,7 +60,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+
   color: #444;
 }
 
@@ -267,7 +267,7 @@ dt {
 /* HYPERLINKS */
 a {
   text-decoration: none;
-  color: #444;
+  color: blue;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   -ms-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
@@ -483,9 +483,13 @@ body {
   display: none;
 }
 
-#header #logo h6{
-  color: rgb(11, 11, 126);
-  
+#header #logo p{
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-bottom: -10px;
+  margin-top: -20px;
+  font-weight: bold;
 }
 
 #header #helloworld {
@@ -495,7 +499,7 @@ body {
 }
 
 #header #helloworld p{
-  color: rgb(11, 11, 126);
+  color: rgb(255, 255, 255);
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   margin-bottom: -10px;
@@ -625,6 +629,7 @@ body {
   letter-spacing: 2px;
   margin-bottom: .3em;
   color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .info h7, #header h7 {
@@ -847,7 +852,7 @@ body {
 }
 
 .label-info {
-  background-color: #444445E6;
+  background-color: rgb(45, 45, 100);
 }
 
 .label-info[href]:hover,
@@ -1070,7 +1075,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .emerald>span {
-  background-color: #2357FA;
+  background-color: #2d458d;
 }
 
 .carrot>span {
@@ -1359,11 +1364,12 @@ tbody {
 }
 
 #titolo-CV h2{
-  font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  
 }
 
 #div-lato{
-  height: 500px;
+  height: 520px;
   width: 220px;
   background-color: lightblue;
   margin-left: 60px;
@@ -1371,9 +1377,10 @@ tbody {
 
 #div-grande{
   width: 580px;
-  height: 500px;
+  height: 520px;
   background-color: lightblue;
   margin-left: 30px;
+  
 }
 
 .blocchi{
@@ -1385,4 +1392,9 @@ tbody {
 
 .blocco-CV{
   display: flex;
+  
+}
+
+.blocchi dd dt{
+  font-family: 'Open Sans', sans-serif;
 }
