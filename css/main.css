@@ -466,7 +466,7 @@ body {
 
 /* Backgrounds */
 .bg-1 {
-  background-image: url('https://deltarisk.com/wp-content/uploads/2018/04/Threat_Hunting_Blog_Image_V1.jpg');
+  background-image: url('https://th.bing.com/th/id/Ra60995c87432f58ee8f02e439edd48a2?rik=CUoNW2Xanr2EPA&pid=ImgRaw');
 }
 
 /* Header */
@@ -479,12 +479,19 @@ body {
   display: none;
 }
 
+#header #logo h6{
+  color: rgb(11, 11, 126);
+}
+
 #header #helloworld {
   text-align: center;
   display: none;
   
 }
 
+#header #helloworld h1{
+  color: rgb(11, 11, 126);
+}
 
 #header h4 {
   margin-bottom: 0px;
@@ -509,7 +516,7 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #1663b4;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -547,11 +554,13 @@ body {
   top: 1px;
   border-color: #f1f1f1;
   border-bottom: none;
+  
 }
 
 .tab a.active {
   padding-top: 10px;
-  color: #2E8B57;
+  color: black;
+  font-weight: bold;
 }
 
 .tab a i {
@@ -597,7 +606,7 @@ body {
 }
 
 .info h4, #header h4 {
-  color: #05680a;
+  color: #072791;
   margin-bottom: 2em;
 }
 
@@ -666,6 +675,7 @@ body {
   width: 15px;
   height: 15px;
 }
+
 
 #imgFace{
   width: 20px;
