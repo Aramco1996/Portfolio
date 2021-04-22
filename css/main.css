@@ -1408,5 +1408,6 @@ footer {
   }
 
 footer p, a{
+  font-family: 'Open Sans', sans-serif;
   margin-top: -5px;
 }
