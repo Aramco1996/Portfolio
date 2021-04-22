@@ -1399,3 +1399,14 @@ tbody {
   font-family: 'Open Sans', sans-serif;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  height: 50px;
+  }
+
+footer p, a{
+  margin-top: -5px;
+}
